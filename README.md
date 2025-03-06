@@ -1,2 +1,0 @@
-# practice-vite
-learning vite
