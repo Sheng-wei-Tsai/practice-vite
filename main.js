@@ -1,10 +1,4 @@
-import greeting from "./greeting"
+import "./main.js"
+import classes from "./style.module.css";
 
-// if (typeof greeting === 'string') {
-//   let parseObject = JSON.parse(greeting)
-//   console.log(`${parseObject} Henry`)
-// } else {
-//   console.log(`${greeting} Henry`)
-// }
-
-
+document.querySelector("h1").className = classes.title
